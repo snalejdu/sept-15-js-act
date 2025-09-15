@@ -112,14 +112,15 @@ function printProgram(){
     let workoutType = " Cardio";
 
 }
+document.write("<br>");
 printProgram();
 
-document.write("try to access");
-document.write(workoutType);
+document.write("try to access <br>");
+//document.write(workoutType);
 
 // part 6
-document.write(sampling);
-let sampling = true;
+document.write(sampling + "<br>");
+let sampling = "sample hoisting";
 document.write(sampling);
   
 
