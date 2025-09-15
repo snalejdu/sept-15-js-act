@@ -83,9 +83,7 @@ let calling = caloriesBurned(10);
 document.write(calling + "<br>");
 
 function isGoalMet(steps){
-    if(steps >= 10000){
-        return true;
-    }
+    if(steps >= 10000) return true;
     return false;
 }
 let isTrue = isGoalMet(12000);
@@ -101,11 +99,11 @@ function multiplyCalories(rate, minutes) {
   
   function dailyCalories(rate, minutes) {
     let caloriesBurned = multiplyCalories(rate, minutes);
-    let totalCalories = caloriesBurned + 50;  // Adding 50 calories for warmup
+    let totalCalories = caloriesBurned + 50;  
     return totalCalories;
   }
   
-  console.log(dailyCalories(8, 30));  // Logs the result
+  console.log(dailyCalories(8, 30));  
   
 
 
