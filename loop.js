@@ -104,6 +104,23 @@ function multiplyCalories(rate, minutes) {
   }
   
   console.log(dailyCalories(8, 30));  
+
+//part 5
+let program = "fitness tracker <br>";
+function printProgram(){
+    document.write(program);
+    let workoutType = " Cardio";
+
+}
+printProgram();
+
+document.write("try to access");
+document.write(workoutType);
+
+// part 6
+document.write(sampling);
+let sampling = true;
+document.write(sampling);
   
 
 
